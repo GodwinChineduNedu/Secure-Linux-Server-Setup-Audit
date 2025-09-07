@@ -75,6 +75,8 @@ This project demonstrates how to build such a server from scratch, harden it, de
 Installation of tree in the Linux VM
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/9193c62f751b443e2d771c589d89ec5ab3023be3/Screenshot%202025-09-06%20193243.png)
+
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/dd2e12679800e5af313707b9f80dc3bc67e2925b/Screenshot%202025-09-06%20195206.png)
    
 5. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
 6. **Harden SSH**: change port, disable root login, enforce key-based auth.
@@ -121,6 +123,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
