@@ -114,26 +114,18 @@ Installation of tree in the Linux VM
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/d4be3e3cbf4d39d40245e6d452cd64578f2d210c/Screenshot%202025-09-06%20210330.png)
 
-13. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
-14. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
+7. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
+
+uname -a > ~/audit_report.txt
+df -h >> ~/audit_report.txt
+free -h >> ~/audit_report.txt
+ps aux --sort=-%mem | head >> ~/audit_report.txt
+ss -tuln >> ~/audit_report.txt
+cat /etc/passwd | grep -E "alice|bob" >> ~/audit_report.txt
+
+8. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
 
 ---
-
-##  Screenshots / CLI Outputs
-
-> *(Replace with your actual screenshots or terminal captures)*
-
-Example CLI output:
-
-```bash
-$ uname -a
-Linux secure-server 5.15.0-89-generic #99-Ubuntu SMP x86_64 GNU/Linux
-
-$ ss -tuln
-Netid State  Recv-Q Send-Q Local Address:Port Peer Address:Port
-tcp   LISTEN 0      128         0.0.0.0:80    0.0.0.0:*
-tcp   LISTEN 0      128         0.0.0.0:2222  0.0.0.0:*
-```
 
 Backup files created:
 
@@ -154,6 +146,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
