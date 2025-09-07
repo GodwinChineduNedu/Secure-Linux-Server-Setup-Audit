@@ -88,13 +88,16 @@ Installation of tree in the Linux VM
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/4e5069ba6dfa1bd52de58fe41f0a8bf34cff4028/Screenshot%202025-09-06%20200247.png)
    
-5. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
-6. **Harden SSH**: change port, disable root login, enforce key-based auth.
-7. **Install Nginx** and confirm it serves a default test page.
-8. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
-9. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
-10. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
-11. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
+3. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
+
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/093f70dc0158f86a2f236894b2fcc87464c2e540/Screenshot%202025-09-06%20201635.png)
+
+7. **Harden SSH**: change port, disable root login, enforce key-based auth.
+8. **Install Nginx** and confirm it serves a default test page.
+9. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
+10. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
+11. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
+12. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
 
 ---
 
@@ -133,6 +136,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
