@@ -117,10 +117,15 @@ Installation of tree in the Linux VM
 7. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
 
 uname -a > ~/audit_report.txt
+
 df -h >> ~/audit_report.txt
+
 free -h >> ~/audit_report.txt
+
 ps aux --sort=-%mem | head >> ~/audit_report.txt
+
 ss -tuln >> ~/audit_report.txt
+
 cat /etc/passwd | grep -E "alice|bob" >> ~/audit_report.txt
 
 8. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
@@ -146,6 +151,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
