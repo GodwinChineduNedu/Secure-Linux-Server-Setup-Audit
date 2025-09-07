@@ -57,9 +57,14 @@ This project demonstrates how to build such a server from scratch, harden it, de
 1. **Provision** a Linux VM (cloud or local).
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/6912ce10810e381fea4def8ba94e44a931b9fa24/Screenshot%202025-09-06%20184735.png)
+
 **Patching**- Update and upgrades are done on the server
+
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/3f56e6ce6a4b9c861f2f8ab1c32d5f70cb8b1a5b/Screenshot%202025-09-06%20184841.png)
+
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/56666c704cba992196411cb5e1b83393f28becd7/Screenshot%202025-09-06%20185126.png)
+
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/f87de789157b2161344abad54e98d56b08272097/Screenshot%202025-09-06%20185238.png)
 
 3. **Explore filesystem** to identify config and log directories (`ls`, `tree`, `df`).
 4. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
@@ -107,6 +112,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
