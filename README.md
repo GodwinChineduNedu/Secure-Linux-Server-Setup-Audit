@@ -108,11 +108,14 @@ Installation of tree in the Linux VM
 
 5. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
 
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/f6c28e5fe40f98f3ea2fe7b1f10976bf84a33757/Screenshot%202025-09-06%20202014.png)
+
+6. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
+
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/d4be3e3cbf4d39d40245e6d452cd64578f2d210c/Screenshot%202025-09-06%20210330.png)
 
-11. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
-12. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
-13. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
+13. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
+14. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
 
 ---
 
@@ -151,6 +154,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
