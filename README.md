@@ -103,6 +103,9 @@ Installation of tree in the Linux VM
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/e698dd4b879a47690491561dda8884603eedd92b/Screenshot%202025-09-06%20204853.png)
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/b1444f9b9798f2e4d2a9d763cbfde299dafd8230/Screenshot%202025-09-06%20205023.png)
+
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/8b113f0f60eb5b9a8d6a3b81d75b08a254d60399/Screenshot%202025-09-06%20204934.png)
+
 9. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
 10. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
 11. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
@@ -145,6 +148,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
