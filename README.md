@@ -58,7 +58,7 @@ This project demonstrates how to build such a server from scratch, harden it, de
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/6912ce10810e381fea4def8ba94e44a931b9fa24/Screenshot%202025-09-06%20184735.png)
 
-**Patching**- Update and upgrades are done on the server
+**Patching**- Update and upgrades are done on the Linux VM
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/3f56e6ce6a4b9c861f2f8ab1c32d5f70cb8b1a5b/Screenshot%202025-09-06%20184841.png)
 
@@ -71,6 +71,10 @@ This project demonstrates how to build such a server from scratch, harden it, de
 2. **Explore filesystem** to identify config and log directories (`ls`, `tree`, `df`).
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/997159adafc606d236bc509bc5822286e380cf13/Screenshot%202025-09-06%20192959.png)
+
+Installation of tree in the Linux VM
+
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/9193c62f751b443e2d771c589d89ec5ab3023be3/Screenshot%202025-09-06%20193243.png)
    
 5. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
 6. **Harden SSH**: change port, disable root login, enforce key-based auth.
@@ -117,6 +121,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
