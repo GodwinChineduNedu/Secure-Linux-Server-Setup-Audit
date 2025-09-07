@@ -55,14 +55,17 @@ This project demonstrates how to build such a server from scratch, harden it, de
 ##  Step-by-Step Build Process
 
 1. **Provision** a Linux VM (cloud or local).
-2. **Explore filesystem** to identify config and log directories (`ls`, `tree`, `df`).
-3. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
-4. **Harden SSH**: change port, disable root login, enforce key-based auth.
-5. **Install Nginx** and confirm it serves a default test page.
-6. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
-7. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
-8. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
-9. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
+
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/6912ce10810e381fea4def8ba94e44a931b9fa24/Screenshot%202025-09-06%20184735.png)
+
+3. **Explore filesystem** to identify config and log directories (`ls`, `tree`, `df`).
+4. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
+5. **Harden SSH**: change port, disable root login, enforce key-based auth.
+6. **Install Nginx** and confirm it serves a default test page.
+7. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
+8. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
+9. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
+10. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
 
 ---
 
@@ -101,4 +104,5 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
