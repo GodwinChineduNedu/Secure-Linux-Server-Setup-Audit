@@ -56,36 +56,29 @@ This project demonstrates how to build such a server from scratch, harden it, de
 
 1. **Provision** a Linux VM (cloud or local).
 
-
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/6912ce10810e381fea4def8ba94e44a931b9fa24/Screenshot%202025-09-06%20184735.png)
-
 
 **Patching**- Update and upgrades are done on the server
 
-
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/3f56e6ce6a4b9c861f2f8ab1c32d5f70cb8b1a5b/Screenshot%202025-09-06%20184841.png)
-
-
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/56666c704cba992196411cb5e1b83393f28becd7/Screenshot%202025-09-06%20185126.png)
 
-
-
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/f87de789157b2161344abad54e98d56b08272097/Screenshot%202025-09-06%20185238.png)
-
-
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/6dfb652cc38762983f45421e0f0f4443f75edde3/Screenshot%202025-09-06%20185319.png)
 
+2. **Explore filesystem** to identify config and log directories (`ls`, `tree`, `df`).
 
-3. **Explore filesystem** to identify config and log directories (`ls`, `tree`, `df`).
-4. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
-5. **Harden SSH**: change port, disable root login, enforce key-based auth.
-6. **Install Nginx** and confirm it serves a default test page.
-7. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
-8. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
-9. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
-10. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/997159adafc606d236bc509bc5822286e380cf13/Screenshot%202025-09-06%20192959.png)
+   
+5. **Create users and groups** (`useradd`, `groupadd`, `usermod`, `chmod`, `chown`) following least privilege.
+6. **Harden SSH**: change port, disable root login, enforce key-based auth.
+7. **Install Nginx** and confirm it serves a default test page.
+8. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
+9. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
+10. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
+11. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
 
 ---
 
@@ -124,6 +117,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
