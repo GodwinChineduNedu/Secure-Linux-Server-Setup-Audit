@@ -12,7 +12,7 @@ They want:
 - A **repeatable** process (documented steps, scripts).
 - The ability to **audit** the server state at any time.
 
-This project demonstrates how to build such a server from scratch, harden it, deploy a basic service, and produce an audit report — just like a junior DevOps/Cloud Security engineer would in production.
+This project demonstrates how to build such a server from scratch, harden it, deploy a basic service, and produce an audit report, just like a junior DevOps/Cloud Security engineer would in production.
 
 ---
 
@@ -106,10 +106,13 @@ Installation of tree in the Linux VM
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/8b113f0f60eb5b9a8d6a3b81d75b08a254d60399/Screenshot%202025-09-06%20204934.png)
 
-9. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
-10. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
-11. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
-12. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
+5. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
+
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/d4be3e3cbf4d39d40245e6d452cd64578f2d210c/Screenshot%202025-09-06%20210330.png)
+
+11. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
+12. **Generate an audit report** with `uname`, `df`, `free`, `ps aux`, `ss -tuln` into `audit_report.txt`.
+13. **Push project** files (scripts, README, reports, optional screenshots) to GitHub for portfolio use.
 
 ---
 
@@ -148,6 +151,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
