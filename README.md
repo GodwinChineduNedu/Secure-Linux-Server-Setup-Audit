@@ -1,5 +1,5 @@
 
-#  Case Study: Secure Linux Server Setup & Audit
+#  Secure Linux Server Setup & Audit
 
 ---
 
@@ -101,3 +101,4 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
