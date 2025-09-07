@@ -92,7 +92,10 @@ Installation of tree in the Linux VM
 
 ![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/093f70dc0158f86a2f236894b2fcc87464c2e540/Screenshot%202025-09-06%20201635.png)
 
-7. **Harden SSH**: change port, disable root login, enforce key-based auth.
+4. **Harden SSH**: change port, disable root login, enforce key-based auth.
+
+![image alt](https://github.com/GodwinChineduNedu/Secure-Linux-Server-Setup-Audit/blob/5bded1d4624e6aa5ec893d1b21eb7f3afd3dea79/Screenshot%202025-09-06%20202957.png)
+
 8. **Install Nginx** and confirm it serves a default test page.
 9. **Automate backups** with a Bash script (`etc_backup.sh`) to archive `/etc` configs to `/var/backups/etc`, scheduled via cron.
 10. **Monitor logs** (`/var/log/auth.log`, `/var/log/syslog`) for failed logins and system events.
@@ -136,6 +139,7 @@ etc_backup_2025-09-07_02-00-00.tar.gz
 * **Version control makes it portable**: pushing to GitHub makes this reusable and demonstrates professional practice.
 
 ---
+
 
 
 
